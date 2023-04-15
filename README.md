@@ -1,8 +1,8 @@
 # wepy-plugin-vantweapp
-> 一个wepy插件
-> 本插件适用于wepy1.7.x及以下版本
-> 根据wpy文件以及引入的组件中使用的<van-xxx>标签自动找到对应json文件进行usingComponents注入
-> 页面wpy代码中再也不需要写如下配置了 实在是麻烦的一批
+* 一个wepy插件
+* 本插件适用于wepy1.7.x及以下版本
+* 根据wpy文件以及引入的组件中使用的<van-xxx>标签自动找到对应json文件进行usingComponents注入
+* 页面wpy代码中再也不需要写如下配置了 实在是麻烦的一批
 ```
 config = {
   usingComponents: {
