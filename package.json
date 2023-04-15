@@ -1,7 +1,7 @@
 {
   "name": "wepy-plugin-vantweapp",
-  "version": "1.0.0",
-  "description": "A wepy plugin for vantweapp",
+  "version": "1.0.2",
+  "description": "一个wepy插件 用来自动引入template中使用的组件 类似uniapp的easycom",
   "main": "dist/index.js",
   "scripts": {
     "dev": "webpack --mode=development --watch",
