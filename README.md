@@ -29,7 +29,7 @@ config = {
 ```javascript
   plugins: {
     // ...
-    vant: {
+    vantweapp: {
       pagePath: 'pages',
       // 可选，默认为 pages。如果页面目录不为pages，或有多个目录, 通过此值设置。
       // 参考配置：
