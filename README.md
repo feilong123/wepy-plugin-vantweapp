@@ -53,9 +53,9 @@ config = {
 4. 运行项目
 
 ## 插件开发的一些提示
-1.编译器是先根据wpy中config配置生成json的，也就是说index.json是先于index.wxml文件生成的。
-2.所以代码逻辑中处理wxml时分析需要注入的van组件直接去修改对应json文件即可
-3.op_obj.json是op 内容的格式 也许对你开发插件也有用
+* 编译器是先根据wpy中config配置生成json的，也就是说index.json是先于index.wxml文件生成的。
+* 代码逻辑中处理wxml时分析需要注入的van组件直接去修改对应json文件即可
+* op_obj.json是op内容的格式 也许对你开发插件也有用
 
 
 ## 其他
